@@ -10,8 +10,8 @@ specifiers:
   '@types/react': 18.0.27
   '@types/react-dom': 18.0.10
   autoprefixer: ^10.4.13
-  codecrush-core: ^0.0.3
-  codecrush-react: ^0.0.3
+  codecrush-core: ^0.0.5
+  codecrush-react: ^0.0.5
   eslint: 8.33.0
   eslint-config-next: 13.1.6
   next: 13.1.6
@@ -32,8 +32,8 @@ dependencies:
   '@types/node': 18.11.18
   '@types/react': 18.0.27
   '@types/react-dom': 18.0.10
-  codecrush-core: 0.0.3_postcss@8.4.21
-  codecrush-react: 0.0.3_postcss@8.4.21
+  codecrush-core: 0.0.5_postcss@8.4.21
+  codecrush-react: 0.0.5_postcss@8.4.21
   eslint: 8.33.0
   eslint-config-next: 13.1.6_4vsywjlpuriuw3tl5oq6zy5a64
   next: 13.1.6_biqbaboplfbrettd7655fr4n2y
@@ -758,8 +758,8 @@ packages:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
     dev: false
 
-  /codecrush-core/0.0.3_postcss@8.4.21:
-    resolution: {integrity: sha512-4csseSygXndFm8EU23aa2BnTZsGkbg6CEsVka9LI+RrceWE+lF77iO8/uehvzb7qRJpv+jf958AgAKFTldJHlA==}
+  /codecrush-core/0.0.5_postcss@8.4.21:
+    resolution: {integrity: sha512-+udTfAO+MtHSzXMAAQroDU7ops5njWuN6HeY80hC+mffJiSKOkJFZhbfaZMrPdcVzEZFSQbCcYl+GSlWXbscPg==}
     dependencies:
       postcss-nesting: 10.2.0_postcss@8.4.21
       shiki: 0.12.1
@@ -767,10 +767,10 @@ packages:
       - postcss
     dev: false
 
-  /codecrush-react/0.0.3_postcss@8.4.21:
-    resolution: {integrity: sha512-Cl3DPcYKkQao1ikVO2IJh6V6bT6vWtFlkvVAgXiqSf79Eek9AhLWP56v76XB9FSUcLOEIzYODGdsZLKxh/9/1Q==}
+  /codecrush-react/0.0.5_postcss@8.4.21:
+    resolution: {integrity: sha512-8wIQ2x1688UbEpQWPB1Yx7QzNwYjvHWrSkfhGcaGkGtIfvmbLwjqUZAUMVvpU9yaWWiBaEVUygAMA+l6WhtXiQ==}
     dependencies:
-      codecrush-core: 0.0.3_postcss@8.4.21
+      codecrush-core: 0.0.5_postcss@8.4.21
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     transitivePeerDependencies:
