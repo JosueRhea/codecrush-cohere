@@ -85,7 +85,9 @@ En este ejemplo vamos a tener que usar dos componentes del editor
 - **autocompletion**: Para añadir los resultados cuando co:here nos traiga los datos.
 - **activity-bar**: Para añadir el evento a la barra de actividades y dar feedback al usuario de cuando se esta haciendo la petición a co:here
 
+
 El editor tiene una función llamada **getComponent** con la que accederemos a esos componentes. Así como el siguiente ejemplo en el que registraremos algo en la barra de actividades.
+
 ```ts
 import { ActivityBarComponent } from "codecrush-core";
 const activityBar = this.editor.getComponent<ActivityBarComponent>("activity-bar");
