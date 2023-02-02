@@ -1,7 +1,10 @@
+const theme = require("shiki/themes/material-ocean.json");
+const { remarkCodeHike } = require("@code-hike/mdx");
+
 const withMDX = require('@next/mdx')({
   extension: /\.mdx?$/,
   options: {
-    remarkPlugins: [],
+    remarkPlugins: [[remarkCodeHike, { theme, showCopyButton: true, lineNumbers: true }]],
     rehypePlugins: [],
   },
 })

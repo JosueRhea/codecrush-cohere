@@ -9,7 +9,7 @@ export const Layout = ({ children }: { children: ReactNode }) => {
       <Head>
         <title>co:here codecrush</title>
       </Head>
-      <main className="w-full max-w-5xl flex flex-col gap-y-4 mt-4 px-4">
+      <main className="w-full max-w-5xl flex flex-col gap-y-4 mt-4 px-4 pb-14">
         <header className="flex w-full justify-between items-center">
           <h1 className="text-3xl">
             <span className="underline decoration-orange-500">co:here</span>{" "}
