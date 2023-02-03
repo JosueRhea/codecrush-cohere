@@ -8,6 +8,7 @@ export const Layout = ({ children }: { children: ReactNode }) => {
     <div className="w-full flex flex-col items-center">
       <Head>
         <title>co:here codecrush</title>
+        <link rel="icon" type="image/x-icon" href="/favicon.png" />
       </Head>
       <main className="w-full max-w-5xl flex flex-col gap-y-4 mt-4 px-4 pb-14">
         <header className="flex w-full justify-between items-center">
