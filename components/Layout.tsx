@@ -26,9 +26,10 @@ export const Layout = ({ children }: { children: ReactNode }) => {
         </header>
         <EditorWrapper />
         <div className="markdown-body">{children}</div>
-        <div className="w-full text-center flex justify-center items-center">
+        <div className="w-full text-center flex justify-center items-center gap-x-2">
+          <img src="/me.jpg" className="w-7 h-7 rounded-full" alt="" />
           <p>Hecho con amor by <strong>JosueRhea</strong></p>
-          <AiFillHeart />
+          <AiFillHeart className="w-6 h-6" />
         </div>
       </main>
     </div>
