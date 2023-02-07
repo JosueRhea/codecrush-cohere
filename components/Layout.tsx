@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { ReactNode } from "react";
 import { EditorWrapper } from "./Editor";
-import { AiFillGithub } from "react-icons/ai";
+import { AiFillGithub, AiFillHeart } from "react-icons/ai";
 
 export const Layout = ({ children }: { children: ReactNode }) => {
   return (
@@ -26,6 +26,10 @@ export const Layout = ({ children }: { children: ReactNode }) => {
         </header>
         <EditorWrapper />
         <div className="markdown-body">{children}</div>
+        <div className="w-full text-center flex justify-center items-center">
+          <p>Hecho con amor by <strong>JosueRhea</strong></p>
+          <AiFillHeart />
+        </div>
       </main>
     </div>
   );
